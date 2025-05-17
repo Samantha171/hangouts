@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hangouts</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+
+<style>
+    .logo-text {
+        font-family: 'Playfair Display', serif;
+        font-size: 64px; /* Adjust size as needed */
+        font-weight: bold;
+    }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            height: 100vh;
+            overflow: hidden;
+            background-color: #EBE8DB;
+        }
+        
+        .container-fluid {
+            padding: 0;
+            height: 100vh;
+        }
+        
+        .navbar {
+            background-color: transparent;
+            padding: 15px 30px;
+            position: absolute;
+            width: 100%;
+            z-index: 1000;
+        }
+        
+        .navbar-brand {
+            color: #EBE8DB;
+            font-weight: bold;
+        }
+        
+        
+        .custom-btn {
+            background-color: transparent;
+            color: #B03052;
+            border: 1px solid #B03052 ;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: all 0.3s ease;
+            margin-right: 10px;
+            padding: 8px 16px;
+        }
+        
+        .custom-btn:hover {
+            background-color: #D76C82;
+            color: #222b43;
+        }
+        
+       
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2rem;
+            }
+            
+            .location-info {
+                text-align: left;
+                margin-top: 15px;
+            }
+            
+            .feature-content h2 {
+                font-size: 1.8rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark">
+   
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <div class="navbar-nav">
+                    <a href="login.html" class="btn custom-btn me-2">Login</a>
+                    <a href="register.html" class="btn custom-btn">Register</a>
+                </div>
+            </div>
+        </nav>
+        <br><br><br><br>
+        <img src="../assets/main.png" style="position: center;">
+        
+           
+            
+    <!-- JavaScript - Only Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
