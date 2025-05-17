@@ -3,9 +3,11 @@
 ### Team Members
 - **SAMANTHA W** (23PW25)  
 - **DHARSHANA SK** (23PW06)
+  
 
 ## Overview
 This is a web application built to help users discover and track hangout spots in and around Coimbatore. The application provides categorized places for dining, games, parks, and more. Users can mark places as "Visited", which are then stored separately to help track where they've been.
+
 
 ## 🌐 Features
 
@@ -15,6 +17,7 @@ This is a web application built to help users discover and track hangout spots i
 - 🔒 User-friendly front-end with JavaScript
 - 🛠️ Backend with PHP for dynamic data handling
 - 📦 Configurable via `.env` and `config.php`
+
 
 ## 📁 Folder Structure
 
@@ -31,6 +34,7 @@ hangoutsWebdev/
 
 ```
 
+
 ## ⚙️ Setup Instructions
 
 1. **Clone or Extract** the project into your web server directory (e.g., `htdocs` for XAMPP).
@@ -40,9 +44,11 @@ hangoutsWebdev/
 4. **Check database connection:**
    - Use `test_connection.php` to verify if your DB is correctly connected.
 
+
 ## 🧪 Testing
 
 - Navigate to `test.php` or `test_connection.php` in your browser to run basic setup tests.
+
 
 ## 🧑‍💻 Technologies Used
 
@@ -50,6 +56,7 @@ hangoutsWebdev/
 - Backend: PHP
 - Database: MySQL (assumed from config.php)
 - Image assets for UI illustration
+
 
 ## 📸 Image Assets
 
